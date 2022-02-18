@@ -2,7 +2,11 @@
 $btn-color: rgb(92, 92, 92);
 $btn-hover-color: rgb(170, 170, 170);
 
+// light mode
+$gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
 /* night light mode tema */
 $gris: rgb(64, 64, 64);
 $gris-claro: rgb(199, 199, 199);
 $gris-oscuro: rgb(32, 32, 32);
+$gris-gradient: linear-gradient(to right, #1d1d1d 0%, #0e0e0e 100%);

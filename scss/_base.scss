@@ -6,14 +6,16 @@ $tema-map: (                                    /* mapa que contiene los diferen
     nav-background: black,
     nav-color: white,
     tienda-card: white,
-    tienda-card-text: black
+    tienda-card-text: black,
+    tienda-gradient: $gradient
   ),
-    night: (                                    /* mapa 2 */
+  night: (                                    /* mapa 2 */
     background-color: $gris,
     color: $gris-claro,
     nav-background: $gris-oscuro,
     nav-color: $gris-claro,
     tienda-card: $gris-oscuro,
-    tienda-card-text: $gris-claro
+    tienda-card-text: $gris-claro,
+    tienda-gradient: $gris-gradient
   ),
 );

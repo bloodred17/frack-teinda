@@ -19,5 +19,8 @@
         .tema-card-text {
             color: map-get($map, tienda-card-text);
         }
+        .tema-gradient {
+            background-image: map-get($map, tienda-gradient);
+        }
     }
  }

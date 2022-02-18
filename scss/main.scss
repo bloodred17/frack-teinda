@@ -1,16 +1,61 @@
 @import "colors";
-
 @import "fonts";
-
 @import "base";
-
 @import "utils";
+@import "animations";
 
 * {
     margin: 0px;
     padding: 0px;
     font-family: $font;
 }
+
+.animate-left_to_right {
+  animation-name: left-to-right;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+}
+
+.animate-right_to_left {
+  animation-name: right-to-left;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+}
+
+.delay {
+  animation-delay: 2s;
+}
+
+@keyframes left-to-right {
+  0% {
+    position: relative;
+    right: 50px;
+  }
+  90% {
+    position: relative;
+    right: -10px;
+  }
+  100% {
+    position: relative;
+    right: 0;
+  }
+}
+
+@keyframes right-to-left {
+  0% {
+    position: relative;
+    left: 50px;
+  }
+  90% {
+    position: relative;
+    left: -10px;
+  }
+  100% {
+    position: relative;
+    left: 0;
+  }
+}
+
 
 /* responsive video index */
 @media only screen and (max-width : 2560px) {
